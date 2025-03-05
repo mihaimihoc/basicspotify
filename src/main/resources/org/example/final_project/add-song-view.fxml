@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.final_project.AddSongController">
+    <children>
+        <Label layoutX="250.0" layoutY="30.0" style="-fx-font-size: 24px;" text="Add Song" />
+        <TextField fx:id="titleField" layoutX="218.0" layoutY="81.0" promptText="Title" />
+        <TextField fx:id="artistField" layoutX="218.0" layoutY="118.0" promptText="Artist" />
+        <TextField fx:id="albumField" layoutX="218.0" layoutY="155.0" promptText="Album" />
+        <TextField fx:id="genreField" layoutX="218.0" layoutY="192.0" promptText="Genre" />
+        <TextField fx:id="featuresField" layoutX="218.0" layoutY="229.0" promptText="Features (optional)" />
+        <Button layoutX="218.0" layoutY="266.0" text="Upload MP3" onAction="#onUploadFileClick" />
+        <Label fx:id="uploadStatusLabel" layoutX="218.0" layoutY="300.0" prefWidth="300.0" text="" />
+        <Button layoutX="218.0" layoutY="330.0" onAction="#onAddSongClick" text="Add Song" />
+        <Button layoutX="10.0" layoutY="10.0" onAction="#onBackButtonClick" text="Back" />
+        <Label fx:id="messageLabel" layoutX="143.0" layoutY="370.0" prefWidth="300.0" text="" />
+    </children>
+</AnchorPane>

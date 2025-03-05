@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.final_project.ProfileController">
+
+    <VBox alignment="CENTER" layoutX="112.0" layoutY="49.0" prefHeight="302.0" prefWidth="376.0" spacing="15.0">
+        <Label style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Profile Details" />
+        <Label fx:id="usernameLabel" text="Username: " />
+        <Label fx:id="emailLabel" text="Email: " />
+        <Label fx:id="rankLabel" text="Rank: " />
+        <Label fx:id="playlistsCountLabel" text="Number of playlists: " />
+    </VBox>
+     <Button fx:id="backButton" layoutX="21.0" layoutY="19.0" onAction="#onBackButtonClick" style="-fx-font-size: 14px;" text="Back" />
+
+</AnchorPane>
