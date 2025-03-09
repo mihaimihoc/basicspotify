@@ -1,9 +1,44 @@
-basic music gui app using a database
+BasicSpotify
+
+The project is a playlist management application that allows users to organize and interact
+with their music collection through a graphical user interface (GUI) built with JavaFX. The
+main functionalities of the project include:
+
+1. User Account Management
+o Users can register, log in, and manage their profiles.
+o Account data is stored and retrieved securely.
+
+2. Playlist and Song Management
+o Users can create, edit, and delete playlists.
+o Songs can be added to and removed from playlists.
+o Song metadata such as title, artist, and duration is displayed.
+
+3. Graphical User Interface (GUI)
+o Intuitive UI for easy navigation between different features.
+o Forms for adding songs and managing playlists.
+o JavaFX components for user interactions.
+
+4. Data Persistence
+o Songs, playlists, and user accounts are stored using a structured database.
+o The application retrieves and updates stored data dynamically.
+
+5. Search
+o Users can search for songs or playlists based on what the ones created by
+them.
+
+6. Additional Utility Features
+o Helpers for managing accounts and application logic.
+o Controllers for handling UI interactions and business logic.
+o Mp3 files contact being able to change volume, their speed and it even has a
+queue
+o Different ranks for people that add songs to the database
+The project integrates these features to offer a seamless experience for users to manage
+and explore their music collections effectively.
 
 for database implementation the following commands could help, also i used xampp
 
-CREATE DATABASE IF NOT EXISTS playlist_db;
-USE playlist_db;
+CREATE DATABASE IF NOT EXISTS playlist_project;
+USE playlist_project;
 
 -- Table: accounts
 CREATE TABLE accounts (
